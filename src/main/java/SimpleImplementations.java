@@ -9,6 +9,8 @@ import static java.util.stream.Collectors.toList;
 
 /**
  * Created by amstone326 on 4/6/18.
+ *
+ * Taken from https://technologyconversations.com/2014/11/04/java-8-streams-micro-katas/
  */
 public class SimpleImplementations {
 
