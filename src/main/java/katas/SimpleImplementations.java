@@ -1,10 +1,11 @@
-package main.java;
+package main.java.katas;
 
 import main.java.util.Person;
 
 import java.util.Collection;
 import java.util.Comparator;
 import java.util.List;
+
 import static java.util.stream.Collectors.toList;
 
 /**
@@ -31,6 +32,7 @@ public class SimpleImplementations {
 
     public static Person getOldestPerson(List<Person> collection) {
         return collection.stream().max(Comparator.comparing(Person::getAge)).get();
+        //return collection.stream().collect(Collectors.toMap(Person::getAge, Function.identity()));
     }
 
     public static int sum(List<Integer> collection) {

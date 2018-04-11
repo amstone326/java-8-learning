@@ -6,16 +6,16 @@ import org.junit.Test;
 
 import java.util.List;
 import static java.util.Arrays.asList;
-import static main.java.SimpleImplementations.filterToLessThanFour;
-import static main.java.SimpleImplementations.flattenList;
-import static main.java.SimpleImplementations.getOldestPerson;
-import static main.java.SimpleImplementations.sum;
-import static main.java.SimpleImplementations.toUpperCase;
+import static main.java.katas.SimpleImplementations.filterToLessThanFour;
+import static main.java.katas.SimpleImplementations.flattenList;
+import static main.java.katas.SimpleImplementations.getOldestPerson;
+import static main.java.katas.SimpleImplementations.sum;
+import static main.java.katas.SimpleImplementations.toUpperCase;
 
 /**
  * Created by amstone326 on 4/6/18.
  */
-public class Tests {
+public class KataTests {
 
     @Test
     public void testToUpperCase() {
