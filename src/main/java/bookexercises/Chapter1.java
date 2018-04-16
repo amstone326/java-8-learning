@@ -9,17 +9,17 @@ import java.util.List;
  */
 public class Chapter1 {
 
-    // problem 2
+    // exercise 2
     public static File[] getSubdirectories(File parent) {
         return parent.listFiles(File::isDirectory);
     }
 
-    // problem 3
+    // exercise 3
     public static String[] getFilesWithExtension(File parent, String extension) {
         return parent.list((dir, name) -> name.endsWith(extension));
     }
 
-    // problem 4
+    // exercise 4
     public static List<File> sortFilesByTypeAndName(File[] files) {
         List<File> sorted = Arrays.asList(files);
         sorted.sort((f1, f2) -> {
